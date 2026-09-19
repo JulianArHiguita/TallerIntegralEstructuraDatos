@@ -4,9 +4,18 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/Contenedor.java</file>
-            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/Lista.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/Movimiento.java</file>
             <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/NodoContenedor.java</file>
             <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/Main.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/ColaCamiones.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/Lista.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/Camion.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/NodoPila.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/BitacoraMovimientos.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/NodoCamion.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/PilaContenedores.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/NodoMovimiento.java</file>
+            <file>file:/C:/Users/jhigu/OneDrive/Documentos/NetBeansProjects/TallerIntegrador/src/tallerintegrador/OperacionInvalidaException.java</file>
         </group>
     </open-files>
 </project-private>
