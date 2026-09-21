@@ -62,9 +62,7 @@ public class Camion {
     // METODO ToString
     @Override
     public String toString() {
-        return String.format(
-            "Placa: " , placa," | Conductor: ", conductor, " | Hora estimada: ", horaEstimada, " | Contenedor: ",contenedorAsociado," | Estado: ", estadoAtencion
-        );
+        return "Placa: " + placa +" | Conductor: " + conductor +" | Hora estimada: " + horaEstimada +" | Contenedor: " + contenedorAsociado +" | Estado: " + estadoAtencion;
     }
     
 }

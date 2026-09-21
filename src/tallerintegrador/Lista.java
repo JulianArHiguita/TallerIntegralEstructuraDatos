@@ -108,31 +108,52 @@ public class Lista {
     }
     
     // ===== METODO PARA ELIMINAR SEGUN ID =====
-    public boolean eliminarPorId(String id) {
+     public boolean eliminarPorId(String id) {
         NodoContenedor nodo = buscarNodoPorId(id);
         if (nodo == null) {
             return false;
         }
- 
+        desenlazar(nodo);
+        return true;
+    }
+    
+    // ===== METODO QUE DESENLAZA EL NODO INDICADO ===== 
+    private void desenlazar(NodoContenedor nodo) {
         NodoContenedor anterior = nodo.getAnterior();
         NodoContenedor siguiente = nodo.getSiguiente();
  
         if (anterior != null) {
             anterior.setSiguiente(siguiente);
         } else {
-            // El nodo eliminado era la cabeza
             cabeza = siguiente;
         }
  
         if (siguiente != null) {
             siguiente.setAnterior(anterior);
         } else {
-            // El nodo eliminado era la cola
             cola = anterior;
         }
-
+ 
+        nodo.setAnterior(null);
+        nodo.setSiguiente(null);
         tamano--;
-        return true;
+    }
+    
+
+ 
+    /**
+     * Igual que eliminarPorId, pero devuelve el Contenedor extraído en vez de
+     * un booleano. Se usa para MOVER un contenedor del inventario hacia la
+     * pila de la grúa pórtico, sin perder sus datos.
+     */
+    public Contenedor extraerPorId(String id) {
+        NodoContenedor nodo = buscarNodoPorId(id);
+        if (nodo == null) {
+            return null;
+        }
+        Contenedor extraido = nodo.getContenedor();
+        desenlazar(nodo);
+        return extraido;
     }
     
     // ===== METODO PARA GENERAR REPORTE ORDENADO SEGUN PRIORIDAD =====
