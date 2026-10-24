@@ -79,6 +79,18 @@ public class Contenedor {
     public void setPrioridadOperativa(int prioridadOperativa) {
         this.prioridadOperativa = prioridadOperativa;
     }
+    
+    // Metodo que obtiene el codigo del contenedor usando el arbol
+    public int getCodigoNumerico() {
+        int codigo = 0;
+        for (int i = 0; i < id.length(); i++) {
+            char c = id.charAt(i);
+            if (c >= '0' && c <= '9') {
+                codigo = codigo * 10 + (c - '0');
+            }
+        }
+        return codigo;
+    }
 
     // Metodo que permite actualizar datos sin cambiar el ID
     public void actualizarDatos(double peso, String tipoCarga, String estado, String ubicacionPatio, String fechaIngreso, int prioridadOperativa) {

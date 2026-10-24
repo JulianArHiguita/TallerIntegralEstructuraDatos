@@ -54,7 +54,7 @@ public class BitacoraMovimientos {
         String resultado = "";
         resultado = resultado + "================== BITÁCORA DE MOVIMIENTOS ==================\n";
         resultado = resultado + "Total de eventos registrados: " + tamano + "\n";
-        resultado = resultado + "---------------------------------------------------------------\n";
+        resultado = resultado + "-------------------------------------------------------------------------------------------------\n";
  
         NodoMovimiento actual = inicio;
         while (actual != null) {
